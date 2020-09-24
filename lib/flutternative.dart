@@ -4,10 +4,9 @@ import 'package:flutter/services.dart';
 
 class Flutternative {
   static const MethodChannel _channel =
-      const MethodChannel('flutternative');
+      const MethodChannel('flutterNativeVnpt');
 
-  static Future<String> get platformVersion async {
-    final String version = await _channel.invokeMethod('getPlatformVersion');
-    return version;
+  static void get gotoFlutterNative2 async {
+    await _channel.invokeMethod('startActivityNative2');
   }
 }

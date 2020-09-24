@@ -1,3 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
   package="kaneki.com.flutternative">
+    <application android:theme="@style/AppTheme">
+        <activity
+            android:name=".FlutterNativeActivity"
+            android:theme="@style/Theme.AppCompat.Light"></activity>
+    </application>
 </manifest>
